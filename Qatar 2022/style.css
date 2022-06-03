@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.navegacion {
+    display: flex;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px 0;
+    border-bottom: 2px solid rgb(0, 0, 0, .2);
+}
+
+.hamburger{
+    width: auto;
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.logo {
+    width: 80%;
+}
+.navegacion img {
+    width: 200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.proximos_partidos{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+.proximos_partidos .titulo{
+    width: auto;
+    margin: 5%;
+    padding: 10px 5px;
+    color:  white;
+    font-family: 'Rubik';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #741c44;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.partidos{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.partido{
+    width: 42%;
+    margin: auto;
+}
+
+.partidoCuadrado{
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding:5px 0px;
+    margin: auto;
+}
+
+.selecciones_fotos {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+
+
+.selecciones_fotos img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.selecciones_texto {
+    display: flex;
+    justify-content: center;
+}
+
+.selecciones_texto p {
+    margin: 0 28px;
+    font-size: 18px;
+    font-family: 'Hind';
+    font-weight: 600;
+}
+
+.horario {
+    width: 95%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Hind';
+    margin: 10px auto;
+}
+
+.proximos_partidos .fecha {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Hind';
+    margin: 10px auto;
+}
+
+/* ultimos partidos */
+
+.ultimos_partidos{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
+.ultimos_partidos .partido {
+    margin: 0px auto 20px auto;
+}
+
+.ultimos_partidos .partidoCuadrado{
+    padding-top: 15px;
+}
+
+.ultimos_partidos .titulo{
+    width: auto;
+    margin: 5%;
+    padding: 10px 5px;
+    color:  white;
+    font-family: 'Rubik';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #741c44;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ultimos_partidos .selecciones_texto p {
+    margin: 0 38px;
+    font-size: 20px;
+}
+
+.fecha {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Hind';
+    margin: 10px auto;
+    margin: 0px auto 10px auto;
+}
+
+/* POSICIONES */
+
+.posiciones {
+    width: 100%;
+    background-color: #741c44;
+    padding: 10px 0;
+}
+.posiciones .titulo {
+    width: auto;
+    margin: 5%;
+    padding: 10px 5px;
+    color:  #741c44;
+    font-family: 'Rubik';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.grupo {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+.grupo .tituloGrupo {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Hind';
+    text-decoration: underline;
+}
+
+.grupo_equipos {
+    display: block;
+}
+
+.grupo_equipos img{
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.equipo{
+    display: flex;
+    margin: auto;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+}
+
+.equipo .nombreEquipo {
+    width: 80px;
+    color: white;
+    margin: 0 5px;
+    font-family: 'Rubik';
+    font-size: 20px;
+}
+
+.equipo .puntos {
+    width: 50px;
+    color: white;
+    margin: 0 5px;
+    font-family: 'Rubik';
+    font-size: 20px;
+}
+
+.equipo1,
+.equipo2,
+.equipo3,
+.equipo4 {
+    margin: 10px 0;
+}
